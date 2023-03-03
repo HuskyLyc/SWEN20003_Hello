@@ -14,9 +14,13 @@ public class Main {
             map.put("5", 11);
             map.put("6", 3);
             map.put("7", 3);
+            //
             Collection<Integer> c = map.values();
             Object[] obj = c.toArray();
             Arrays.sort(obj);
-            System.out.print(obj);
+
+            for(Object i : obj){
+                    System.out.print(i + "   ");
+            }
     }
 }
