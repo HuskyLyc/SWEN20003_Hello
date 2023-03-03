@@ -3,7 +3,7 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Main {
+public class getUsedToJava {
     public static void main(String[] args) {
             //定义一个map
             Map<String, Integer> map = new HashMap();
