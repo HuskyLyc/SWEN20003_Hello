@@ -5,7 +5,6 @@ import java.util.Map;
 
 public class getUsedToJava {
     public static void main(String[] args) {
-            //定义一个map
             Map<String, Integer> map = new HashMap();
             map.put("1", 8);
             map.put("2", 12);
@@ -14,7 +13,7 @@ public class getUsedToJava {
             map.put("5", 11);
             map.put("6", 3);
             map.put("7", 3);
-            //
+            //get values of map
             Collection<Integer> c = map.values();
             Object[] obj = c.toArray();
             Arrays.sort(obj);
