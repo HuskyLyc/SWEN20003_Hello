@@ -3,7 +3,7 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
-public class getUsedToJava {
+public class mapFindBigVal {
     public static void main(String[] args) {
             Map<String, Integer> map = new HashMap();
             map.put("1", 8);
@@ -25,7 +25,7 @@ public class getUsedToJava {
             Arrays.sort(obj);
 
             for(Object i : obj){
-                    System.out.print(i + " hhhhhh");
+                    System.out.print(i + "   ");
             }
     }
 }
