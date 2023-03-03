@@ -9,7 +9,7 @@ class upperBound {
 
     // Method 1
     // To find upper bound of given key
-    static void upper_bound(int arr[], int key)
+    static int upper_bound(int arr[], int key)
     {
         int upperBound = 0;
 
@@ -22,10 +22,11 @@ class upperBound {
                 // This value is just greater than key
             else{
                 System.out.print("The upper bound of " + key + " is " + arr[upperBound] + " at index " + upperBound);
-                return;
+                return upperBound;
             }
         }
         System.out.print("The upper bound of " + key + " does not exist.");
+        return -1;
     }
 
     // Method 2
