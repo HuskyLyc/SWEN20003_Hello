@@ -24,7 +24,8 @@ public class arrFind{
         for(int i=Arr.length-1;i>=0;i--)
         {
 //            System.out.print(key+"最后一次出现的下标为：");
-            return i;
+            if(Arr[i] == key) return i;
+
         }
         return 0;
     }
