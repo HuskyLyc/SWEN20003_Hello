@@ -16,10 +16,16 @@ public class getUsedToJava {
             //get values of map
             Collection<Integer> c = map.values();
             Object[] obj = c.toArray();
+            //Object[]“是定义了一个一维的对象，这个Object是任何对象的父类，也就是说可以转换成任何的类型。举例：
+            //Object[] object = new Object[3] ；
+            //object [0] = new String(“12312”);
+            //object [1] = new String[] { “String1”, “String2” };
+            //object [2] = new Date();
+            //解释：也就是说Object类型之后可以给任意类型的值或者对象赋值给当前的object 对象，而不需要强制类型转换，方便操作
             Arrays.sort(obj);
 
             for(Object i : obj){
-                    System.out.print(i + "   ");
+                    System.out.print(i + " hhhhhh");
             }
     }
 }
