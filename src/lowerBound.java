@@ -17,7 +17,6 @@ public class lowerBound {
 
         // If key is not present in the array
         if (index < 0) {
-
             // Index specify the position of the key
             // when inserted in the sorted array
             // so the element currently present at
