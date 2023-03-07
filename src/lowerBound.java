@@ -54,7 +54,7 @@ public class lowerBound {
     {
         //
         int array[]
-                = { 4, 6, 10, 12, 17, 18, 20, 20, 30, 45 };
+                = { 4, 6, 10, 12, 18, 18, 20, 20, 30, 45 };
         int key = 18;
 
         // Sort the array before applying binary search
