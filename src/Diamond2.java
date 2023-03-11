@@ -1,6 +1,7 @@
 public class Diamond2 {
     public static void main(String[] args) {
-        print(7); // 输出7行的菱形
+        int num =  Integer.parseInt(args[0]);
+        print(num); // 输出7行的菱形
     }
 
     public static void print(int size) {
