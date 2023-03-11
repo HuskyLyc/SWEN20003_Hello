@@ -17,7 +17,6 @@ public class lowerBound {
 
         // If key is not present in the array
         if (index < 0) {
-
             // Index specify the position of the key
             // when inserted in the sorted array
             // so the element currently present at
@@ -55,7 +54,7 @@ public class lowerBound {
     {
         //
         int array[]
-                = { 4, 6, 10, 12, 17, 18, 20, 20, 30, 45 };
+                = { 4, 6, 10, 12, 18, 18, 20, 20, 30, 45 };
         int key = 18;
 
         // Sort the array before applying binary search

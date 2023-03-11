@@ -1,7 +1,6 @@
 public class Diamond2 {
     public static void main(String[] args) {
-        int num =  Integer.parseInt(args[0]);
-        print(num); // 输出7行的菱形
+        print(7); // 输出7行的菱形
     }
 
     public static void print(int size) {
@@ -14,7 +13,7 @@ public class Diamond2 {
             }
             for (int j = 0; j < 2 * i + 1; j++) {
 
-                System.out.print("*"); // 输出菱形上半部边缘
+                System.out.print("#"); // 输出菱形上半部边缘
 
             }
             System.out.println(); // 换行
@@ -25,7 +24,7 @@ public class Diamond2 {
             }
             for (int j = 0; j < 2 * size - 1 - 2 * i; j++) {
 
-                System.out.print("*"); // 输出菱形下半部边缘
+                System.out.print("#"); // 输出菱形下半部边缘
 
             }
             System.out.println(); // 换行
