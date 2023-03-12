@@ -12,7 +12,7 @@ class LC1694 {
         if(len <= 3) return pureNum;
         else {
             int leave = pureNum.length() % 3;
-            if()
+//            if()
             for(int i = 2; i < pureNum.length(); i += 3){
                 String substring = pureNum.substring(i - 2,i);
                 String substring1 = pureNum.substring(i,pureNum.length());

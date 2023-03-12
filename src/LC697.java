@@ -1,5 +1,5 @@
 import java.util.*;
-
+import java.lang.*;
 public class LC697 {
     //      找到frequency最大的键值对 再判断有无重复最高频词
     //      找高频词的upperbound() - lower-bound()
